@@ -40,8 +40,9 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div class="title">Sistema de asignacion de salas y clases</div>
+                <h1>por favor ingrese como Administrador,Encargado,Docente o Alumno</h1>
+                <a type="submit" class="btn btn-primary" href="/auth/login" role="button">Ingresar</a>
 			</div>
 		</div>
 	</body>

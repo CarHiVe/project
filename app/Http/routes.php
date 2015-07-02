@@ -19,9 +19,12 @@ Route::get('about','PagesController@about');
 
 Route::get('home', 'HomeController@index');
 
+//estudiantes:
+
 Route::get('estudiantes','EstudiantesController@index');
 Route::get('estudiantes/{id}','EstudiantesController@show');
 
+//Administrador:
 
 Route::get('administrador','AdministradorController@administrador');
 Route::get('administrador/campus','AdministradorController@campus');
@@ -38,6 +41,11 @@ Route::get('administrador/campus/asignar-encargado/{id}','AdministradorControlle
 Route::put('administrador/campus/asignar-encargado/{id}','AdministradorController@singleUpdate');
 Route::get('administrador/campus/asignar-encargado/{id}/actualizado','AdministradorController@encargadoActualizado');
 
+Route::get('opciones','AdministradorController@index');
+Route::get('opciones/asignar-perfiles-de-usuario','AdministradorController@asignarRoles');
+
+//encargado:
+
 Route::get('encargado','EncargadoController@index');
 Route::get('encargado/buscar','EncargadoController@campus');
 Route::get('encargado/campus-a-cargo','EncargadoController@findCampus');
@@ -52,7 +60,9 @@ Route::get('encargado/crear-curso/{id}','EncargadoController@crear_curso');
 Route::post('curso','EncargadoController@store');
 Route::get('encargado/crear-curso/exito','EncargadoController@exito');
 
+//Docentes:
 
+Route::get('docentes','DocenteController@index');
 
 
 

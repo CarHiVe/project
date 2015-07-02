@@ -67,9 +67,9 @@ return [
 		'pgsql' => [
 			'driver'   => 'pgsql',
 			'host'     => env('DB_HOST', 'localhost'),
-			'database' => env('DB_DATABASE', 'camydb'),
-			'username' => env('DB_USERNAME', 'camy'),
-			'password' => env('DB_PASSWORD', '24enero1993'),
+			'database' => env('DB_DATABASE', 'Salas'),
+			'username' => env('DB_USERNAME', 'lozamded'),
+			'password' => env('DB_PASSWORD', 'dedmazol'),
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',

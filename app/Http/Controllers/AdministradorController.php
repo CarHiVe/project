@@ -105,9 +105,11 @@ class AdministradorController extends Controller {
         return view('administrador.encargado_actualizado');
     }
 
+    public function asignarRoles()
+    {
 
-
-
+        return view('administrador.asignar-perfiles-de-usuario');
+    }
 
 
 }
