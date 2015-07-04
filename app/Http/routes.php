@@ -62,8 +62,10 @@ Route::get('encargado/crear-curso/exito','EncargadoController@exito');
 
 //Docentes:
 
-Route::get('docentes','DocenteController@index');
-
+Route::get('docentes','DocenteController@docente');
+Route::get('docentes/versalas','DocenteController@salas');
+Route::get('docentes/buscarse','DocenteController@buscarse');
+Route::get('docentes/editar','DocenteController@edit');
 
 
 
