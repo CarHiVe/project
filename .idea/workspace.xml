@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77b16881-284e-4fd7-9c42-f7c2182edda0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/DocenteController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocenteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/administrador/asignar-perfiles-de-usuario.blade.php" afterPath="$PROJECT_DIR$/resources/views/administrador/asignar-perfiles-de-usuario.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="77b16881-284e-4fd7-9c42-f7c2182edda0" name="Default" comment="" />
     <ignored path="flower.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -95,8 +90,8 @@
       <file leaf-file-name="editar.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/docente/editar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3617811" vertical-offset="0" max-vertical-offset="1078">
-              <caret line="26" column="127" selection-start-line="26" selection-start-column="127" selection-end-line="26" selection-end-column="127" />
+            <state vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="1078">
+              <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -507,7 +502,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="-4" width="1845" height="1204" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -937,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/docente/editar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617811" vertical-offset="0" max-vertical-offset="1078">
-          <caret line="26" column="127" selection-start-line="26" selection-start-column="127" selection-end-line="26" selection-end-column="127" />
+        <state vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="1078">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
           <folding />
         </state>
       </provider>
