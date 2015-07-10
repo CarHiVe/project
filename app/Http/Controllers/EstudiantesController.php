@@ -17,9 +17,9 @@ use Request;
 class EstudiantesController extends Controller
 {
 
-    public function estudiantes()
+    public function index()
     {
-        return view('');
+        return view('estudiantesindex.blade.php');
     }
 
 
