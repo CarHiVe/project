@@ -19,7 +19,7 @@ class EstudiantesController extends Controller
 
     public function index()
     {
-        return view('estudiantesindex.blade.php');
+        return view('estudiantes.estudiantesindex');
     }
 
 
